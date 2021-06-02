@@ -9,7 +9,7 @@ const app = express();
 
 const server = createServer(app);
 
-mongoose.connect("mongodb://localhost/rocketsocket", {
+mongoose.connect("mongodb://localhost/chat-websocket", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
